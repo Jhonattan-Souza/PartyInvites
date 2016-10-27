@@ -16,6 +16,6 @@ namespace PartyInvites.Models
         [Required(ErrorMessage = "Please enter your phone number")]
         public string Phone { get; set; }
         [Required(ErrorMessage = "Please specify wether you'll attend")]
-        public bool? WillAtend { get; set; }
+        public bool? WillAttend { get; set; }
     }
 }
